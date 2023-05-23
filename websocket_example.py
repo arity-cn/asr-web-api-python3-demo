@@ -112,7 +112,7 @@ def after_process_speech_end(ws, message_obj):
     print("收到识别结束报文")
     if len(result) > 0:
         result.append('。')
-        print(f"最终语音识别结果：{''.join(result)}")
+    print(f"最终语音识别结果：{''.join(result)}")
     ws.close()
 
 
