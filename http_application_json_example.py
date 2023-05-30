@@ -29,7 +29,7 @@ if __name__ == '__main__':
         "channelCode": channelCode,
         "contentType": "RAW",
         "formatInfo": "WAV",
-        "content": file_to_base64("audio/BAC009S0002W0164.wav"),
+        "content": file_to_base64("audio/ARITY2023S001W0001.wav"),
         "timestamp": signResult['timestamp'],
         "sign": signResult['signature']
     }

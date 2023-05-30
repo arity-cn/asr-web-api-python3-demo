@@ -61,7 +61,7 @@ def after_process_server_ready(ws, message_obj):
     # 处理服务端准备好进行语音识别报文，发送二进制报文，发送完二进制报文后发送结束识别报文
     print("处理服务端准备好进行语音识别报文")
     if message_obj.status == 'ok':
-        with open("audio/BAC009S0002W0164.wav", "rb") as f:
+        with open("audio/ARITY2023S001W0001.wav", "rb") as f:
             # 每次读取10k字节
             while True:
                 chunk = f.read(10240)

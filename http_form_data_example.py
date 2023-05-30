@@ -23,7 +23,7 @@ if __name__ == '__main__':
         "sampleRateEnum": "SAMPLE_RATE_16K"
     }
     files = {
-        "file": ("BAC009S0002W0164.wav", open("audio/BAC009S0002W0164.wav", "rb"), 'application/octet-stream')
+        "file": ("ARITY2023S001W0001.wav", open("audio/ARITY2023S001W0001.wav", "rb"), 'application/octet-stream')
     }
     response = requests.post(url, headers=headers, data=data, files=files)
 
